@@ -1,6 +1,6 @@
 package sort
 
-//RadixSort 桶排序， 内部基于计数排序
+//RadixSort 基数排序， 内部基于计数排序
 func RadixSort(a []int64, d, lenth int) []int64 {
 	cur := make(map[int64]int64)
 	for _, v := range a {
